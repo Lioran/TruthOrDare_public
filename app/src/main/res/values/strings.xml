@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TruthOrDare</string>
+    <string name="play">ИГРАТЬ</string>
+    <string name="load_tasks">РЕДАКТИРОВАТЬ ЗАДАНИЯ</string>
+    <string name="rules">ПРАВИЛА</string>
+    <string name="back">НАЗАД</string>
+    <string name="exit">ВЫХОД</string>
+    <string name="title_truth">TRUTH</string>
+    <string name="title_dare">or DARE</string>
+    <string name="contract_value">Приветствую тебя в этой игре заблудший.\n Помни - нажимая кнопку "ИГРАТЬ"\t ты обязуешься выполнить все действия и ответить на все вопросы. Повеселись, если осмелишься)))</string>
+    <string name="rules_value">Правила очень просты, выбери между правдой или действием.\n В первом случае отвечай максимально честно,\n во втором исполни то что от тебя требуется. Нельзя выбирать правду 2 раза подряд.\n Старайся, иначе тебя ждет наказания похуже заданий))))</string>
+    <string name="edit_task">Введите задание</string>
+    <string name="cancel">Отмена</string>
+    <string name="accept">ПРИНЯТЬ</string>
+    <string name="question">ПРАВДА</string>
+    <string name="action">ДЕЙСТВИЕ</string>
+    <string name="add">ДОБАВИТЬ</string>
+    <string name="next">ДАЛЕЕ</string>
+    <string name="start_again">НАЧАТЬ ЗАНОВО</string>
+    <string name="go_to_menu">В МЕНЮ</string>
+    <string name="punishment">НАКАЗАНИЕ</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".PlayActivity"
+    android:background="#1B1B1B">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_truth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_truth"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title_dare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFA31A"
+            android:text="@string/title_dare"
+            android:textColor="#1B1B1B"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white_border">
+
+        <TextView
+            android:id="@+id/current_player_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_margin="2dp"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="2dp">
+
+            <Button
+                android:id="@+id/truth_button"
+                android:layout_height="wrap_content"
+                android:layout_width="310dp"
+                android:layout_weight="1"
+                android:text="@string/question"
+                android:background="@drawable/circle_button"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/action_button"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="310dp"
+                android:layout_weight="1"
+                android:text="@string/action"
+                android:background="@drawable/circle_button"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <include
+            android:visibility="gone"
+            layout="@layout/field_for_task" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/start_again"
+            android:layout_height="wrap_content"
+            android:layout_width="310dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="@string/start_again"
+            android:background="@drawable/circle_button"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>
